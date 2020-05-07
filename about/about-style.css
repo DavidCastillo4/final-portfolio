@@ -1,0 +1,126 @@
+* {margin: 0; padding: 0;}
+
+.SectionTop {position: relative;}
+
+video {
+    position: relative;
+    height: auto;
+    width: 100%;
+    z-index: -1;    
+}
+
+.LogoBox, .SectionAboutNike, .Sections  {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.LogoBox {    
+  position: absolute;
+  width: 100%;
+  height: 100%;  
+}
+
+.LogoTextBox {   
+    height: 100%;  
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Mission,.HeadText {
+    text-align: center;     
+    color: white; 
+    font-family: Arial; 
+    font-weight: 700;   
+}
+
+.Mission {font-size: 20px;}
+
+.SectionAboutNike {    
+    width: 100%;
+    padding: 50px 0px;
+    flex-direction: column;  
+}
+
+.AboutTextBox {max-width: 800px;}
+
+.AboutTxt {
+    font-family: Arial;  
+    font-size: 25px;
+    line-height: 30px; 
+    text-align: left;  
+    font-weight: 600; 
+    padding: 0px 20px 20px 20px;  
+
+}
+
+.AboutP {
+    text-align: left;         
+    font-family: Arial;          
+    line-height: 30px;  
+    padding: 0px 20px;
+}
+
+.Sections {width: 100%;}
+
+.bg1 {background-color: rgb(235, 235, 235);}
+.bg2 {background-color: white;}
+
+
+.ImgBox {padding: 20px 20px 20px 20px;}
+
+img {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.TextBox {
+    padding: 20px;
+    max-width: 600px;
+}
+
+.Title {
+font-size: 15px;
+font-family: Arial;
+letter-spacing: 7px;
+padding-bottom: 40px;
+text-decoration: underline;
+text-decoration-color: red;
+}
+
+.Description {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.Text {
+font-family: Calibri;
+font-size: 20px;
+}
+
+  /*Mobile*/
+  @media (min-width:1px) {
+      .HeadText {
+          font-size: 16px;        
+    }
+    .Sections {                
+        flex-direction: column;
+  }
+}
+
+  /*desktops*/
+  @media (min-width: 1500px) {
+      .HeadText {
+          font-size: 40px;  
+    }
+    .Sections {                
+        flex-direction: row;
+  }
+
+  .rev {flex-direction: row-reverse;}
+}
+

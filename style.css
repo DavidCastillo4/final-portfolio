@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;   
+  background-color: rgb(240, 239, 233); 
+}
+
+header {
+  display: grid;
+  width: 100%;
+  grid-template: 100px 50px / 1fr 200px 600px 1fr;    
+  justify-items: center;
+      
+}
+
+/* What kind of selector is this? */
+.logo {
+  width: 150px;
+  height: 100px;    
+  grid-area: 1/2/1/2;
+}
+
+
+nav {
+ grid-area: 1/3/1/3;      
+ align-self: center;
+ justify-self:right;
+ 
+}
+  
+nav a {          
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;        
+  text-align: center;    
+  margin: 0px 10px;
+  
+}
+
+main {
+  height: 300px;
+  width: 100%;
+  display: grid;
+  grid-template: 600px 80px 80px / 100%;        
+  justify-items: center; 
+}
+
+#profile-pic {
+  width: 430px;
+  height: 567px;
+  border-radius: 10%;    
+  grid-area: 1/1/1/1;
+}
+
+h1 {
+  color:grey;
+  border-bottom: 2px solid rgb(136, 141, 153);;
+  grid-area: 2/1/2/1;    
+}
+
+h2 {    
+  font-style: italic;
+  grid-area: 3/1/3/1;
+  margin: 0px;
+}
