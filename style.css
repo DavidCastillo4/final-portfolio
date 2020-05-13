@@ -3,10 +3,10 @@ body {
   background-color: rgb(240, 239, 233); 
 }
 
-header {
+header {  
   display: grid;
   width: 100%;
-  grid-template: 100px 50px / 1fr 200px 600px 1fr;    
+  grid-template: 100px 50px / 1fr 200px 620px 1fr;    
   justify-items: center;
       
 }
@@ -14,7 +14,7 @@ header {
 /* What kind of selector is this? */
 .logo {
   width: 150px;
-  height: 100px;    
+  height: 130px;    
   grid-area: 1/2/1/2;
 }
 
