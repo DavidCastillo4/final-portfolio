@@ -25,4 +25,3 @@ let drawCircles = () => {
   setInterval(function(){ drawCircles(); }, 1000);
   //drawCircles()
   
-  
